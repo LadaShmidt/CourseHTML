@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a,
+a::visited{
+    text-decoration: none;
+}
+a::hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+img{
+    vertical-align: top;
+}
+html,
+body{
+    height: 100%;
+}
+html{
+    font-size: 16px;
+}
+body{
+    line-height: 1;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* vertical-align - выравнивает строчные и блочно-строчные объекты по вертикали
+top - по верху 
+middle - по центру 
+bottom - по низу */
+
+/* border 
+Универсальное свойтсво border позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента.
+border: размер(1px) стиль(solid) цвет(#000)
+Основные стили: solid(-) dotted(..) dashed(--) double(||) 
+цвет(transparent) - делает border прозрачным
+border-top - граница сверух
+border-bottom - граница снизу
+border-right - граница справа
+border-left - граница слева*/
+
+/* outline 
+Универсальное свойство, одновременно устанавливает цвет, стиль и тольщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border. свойство outline не влияет на положение блока и его ширину.
+Также нельзя задать параметры линии на отдельных сторонах элемента, outline применяется сразу ко всем четырем сторонам.*/
+
+/* border-radius
+Устанавливает радиус скругления уголков блока. 
+border-radius:50%; - круг
+Можно использовать вместе с overflow: hidden; */
+
+/* box-shadow 
+Добавляетт тень к элементу.
+box-shadow: сдвиг-по-гориз(1px) сдвиг-по-верт(1px) радиус(1px) расстояние(1px) цвет(#0000)
+Можно использовать много теней. На тень влияет свойство border-radius. */
+.wrapper{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+.link{
+    font-size: 30px;
+    border: 5px  #000;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+}
+/* .link:hover { 
+    border: 5px solid transparent;
+} */
+/* .link:hover { 
+    border: 5px dashed hsl(194, 87%, 45%);
+}  */
+/* .link:hover { 
+    border: 5px dotted hsl(194, 87%, 45%);
+}  */
+/* .link:hover { 
+    border: 5px double hsl(194, 87%, 45%);
+}   */
+/* .link:hover { 
+    border-bottom: 5px solid hsl(194, 87%, 45%);
+    border-top: none;
+}  */

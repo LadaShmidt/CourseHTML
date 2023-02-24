@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),url('../fonts/Gilroy-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),url('../fonts/Gilroy-Bold.woff') format('woff');
+    font-style: bold;
+    font-weight: normal;
+    font-display: swap;
+}
+/* &display=swap&subset=cyrillic-ext */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap&subset=cyrillic-ext');c */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+li {
+    list-style: none;
+}
+a,
+a::visited{
+    text-decoration: none;
+}
+a::hover{
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+img{
+    vertical-align: top;
+}
+html{
+    font-size: 16px;
+}
+body{
+    line-height: 1;
+    font-family: 'Gilroy' , sans-serif;
+}
+
+/* Два вварианта подключения семейтсва шрифтов */
+
+/* 1.  Подключение шрифтов извне */
+/* 2. Локальное подключение */
+/* ------------------------------------------------------- */
+/* Свойства шрифта */
+/* font-family: "Имя шрифта", "Имя шрифта", ..., тип шрифта */
+/* Устанавливает семейство шрифта
+Типы шрифта:
+serif - ihbams с засечками, типа Times
+sans-serif - рубленные шрифты (шрифты без засечек)
+cursive - курсивный шрифт
+fantasy - декоротивные шрифты
+monospace - моноширинные шрифты, ширина каждого символа в шрифах одинаковая */
+
+/* font-size: размеры(px, %, rem, em ) - размер шрифта задается в html (html{font-size:16px;})
+Определяет размер шрифта элемента*/
+
+/* font-style: 
+Определяет начертание шрифта - курсив, наклонная, обычное
+oblique- наклонное начертание
+italic - курсивное начертание
+normal - обычное начертание */
+
+/* font-weight:
+Устанавливает насыщенность шрифта
+100 - thin
+300 - lite
+400 - normal
+500 - medium
+600 - semibold
+700 - bold
+900 - black*/
+
+/* color
+Определяет цвет текста, для задания цветов обычно используются числа в шестандцатеричном коде */
+
+/* text-align
+Определяет горизонтальное выравнивание текста в пределах элемента.
+center - выравнивает текст по центру
+justify - выравнивает по ширине (по левому и правому краю)
+left - выравнивание по левому краю
+right - выравнивает по правому краю */
+
+/* text-decoration
+Добавляет оформление текста в виде его подчеркивания, перечеркивания, лини над текстом.
+line-through - создает перевернутый текст
+overline - линия над текстом
+underline - линия под текстом
+none - отменяет все эффекты */
+
+/* text-shadow: горизонтальное_смещение вертикальное_смещение размер цвет
+добавляет тень к тексту.
+text-shadow: 1px 1px 1px #000; */
+
+/* text-transform
+Управляет преобразование текста в заглавные или прописные символы.
+capitalize - Первый символы каждого слова в предложении будет заглавным
+lowercase - все символы строчные
+uppercase - все символы становятся заглавные
+none - отменяет все эффекты*/
+
+/* line-height
+Устанавливает межстрочный интерввал текста (желательно в %) */
+
+/* letter-spacing
+Определяет межбуквенный интервал */
+
+/* word-spacing
+Устанавливает интервал между словами */
+
+/* text-indent
+Устанваливает велечину отступа у первой строки текста */
+
+/* white-space
+Управляет свойствами пробелов между словами. Применяется в основном со значением nowra, которое запрещает перенос строк.
+Значение normal вернет все в */
